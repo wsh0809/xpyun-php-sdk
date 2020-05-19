@@ -33,7 +33,7 @@ include_once __DIR__ . "src/Lib/Autoloader.php";
 
 //初始化配置
 use Wosh\Config\XpyConfig;
-$config = new XpyConfig('你的应用账号', '你的应用密钥');
+$config = new XpyConfig('你的应用账号，即用户名/注册邮箱', '你的应用密钥');
 
 //授权打印机(他加过请跳过该步骤)
 use Wosh\Api\PrinterService;
